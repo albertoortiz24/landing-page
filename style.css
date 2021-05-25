@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   /* display:flex;*/
+    justify-content:center;
+    transform-style: preserve-3d ;
+    transform: perspective(12000px);
+    background-color: #f8f9fa!important;
+}
+
+.navbar-brand{
+    margin-left: 28%;
+
+}
+nav .rows{
+    margin-right: 22%;
+}
+
+.proximamente{
+    
+    margin-bottom:5%;
+}
+.btn-navbar{
+    color: #000;
+  
+}
+.bg-light {
+    background-color: #fff!important;
+}
+.btn-navbar:hover{
+    color: #000;
+}
+.col-md-4{
+    padding:0;
+    padding: 8px;
+
+}
+.img-logo{
+    border-radius: 50%;
+    width: 50%;
+    margin: 0% 0% 0% 25%;
+    
+}
+.btn-header{
+    margin-right: -8%;
+}
+
+.cuerpo{
+   
+   /* margin: 0 auto 30px;*/
+    padding: 30px 20px 0;
+    margin: 0 auto 30px;
+    max-width: 935px;
+}
+.embed-responsive-item{
+    width: 8%;
+    height: 4rem;
+    border-radius: 100%;
+    margin: 1%;
+}
+
+/*margin: 0 auto 30px;
+
+/* galeria en 3D comienzo */
+.box{
+    position: relative;
+    width: 250px;
+    height:184px;
+    background-color: transparent;
+    transform-style: preserve-3d;
+    transform:rotateX(-15deg) rotateY(0deg);
+    transition: 1s transform;
+    margin-top: 15%;
+    animation: animate 20s linear infinite;
+
+}
+.side{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 85%;
+    border-radius:50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    cursor: pointer;
+
+}
+
+.s1{
+    background-image: url('/img1.jpeg');
+    transform: rotateY(0deg) translateZ(250px);
+}
+.s2{
+    background-image: url('/img2.jpeg');
+    transform: rotateY(60deg) translateZ(250px);
+}
+.s3{
+    background-image: url('/img3.jpeg');
+    transform: rotateY(120deg) translateZ(250px);
+}
+.s4{
+    background-image: url('/img4.jpeg');
+    transform: rotateY(180deg) translateZ(250px);
+}
+.s5{
+    background-image: url('/img5.jpeg');
+    transform: rotateY(240deg) translateZ(250px);
+}
+.s6{
+    background-image: url('/img6.jpeg');
+    transform: rotateY(300deg) translateZ(250px);
+}
+@keyframes animate{
+    0%{
+        transform: perspective(1000px) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+.texto-soon{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 5em;
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #030303;
+    font-weight: bold;
+}
+
+/* galeria en 3D final */
+
+/* gallery section start */
+
+.gallery_section {
+    width: 100%;
+    float: left;
+    padding-bottom: 90px;
+    
+}
+
+.gallery_taital {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    color: #030303;
+    font-weight: bold;
+}
+
+.gallery_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.gallery_section_2 {
+    width: 100%;
+    float: left;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+img.image {
+    min-height: 300px;
+    border: inset;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+.container_main {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(239, 239, 239, 0.5);
+    margin: 0 auto;
+}
+
+.container_main:hover .overlay {
+    opacity: 1;
+    border-radius: 10%;
+    margin-bottom: -5px;
+}
+
+.text {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+}
+
+.seemore_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.seemore_bt a {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #252525;
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.seemore_bt a:hover {
+    background-color: #ac2503;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ac2503;
+    text-decoration: underline;
+}
+/*
+*/
+.btn-insta{
+    background-color: transparent;
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    color: #262626;
+    color: rgba(var(--f75,38,38,38),1);
+}
